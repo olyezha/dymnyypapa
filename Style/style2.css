@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111010;
+    /* overflow: hidden; */
+}
+
+.back{
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: silver;
+    font-family: 'Montserrat-400';
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.back:hover{
+    width: 185px;
+}
+
+.line{
+    width: 90px;
+    height: 1px;
+    background-color: silver;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 50px;
+}
+
+.image{
+    width: 676px;
+    /* background-image: url(Images/photo_2020-12-23_12-02-09.svg); */
+}
+
+.about{
+    /* width: 900px; */
+    height: 900px;
+    margin-left: 400px;
+}
+
+.best{
+    width: 500px;
+    font-size: 91px;
+    font-family: 'Montserrat-700';  
+    display: flex;
+    justify-content: flex-end;
+    color: orange;
+    opacity: 30%;
+}
+
+.lorem{
+    display: flex;
+}
+
+.quality{
+    /* width: 140px; */
+    height: 800px;
+    font-size: 128px;
+    font-family: 'Montserrat-700';
+    opacity: 10%;
+    color: #FFFFFF;
+}
+
+.quality>p{
+    writing-mode: vertical-lr;
+}
+
+.delivery{
+    color: white;
+    width: 380px;
+}
+
+.delivery>.tit{
+    font-family: 'Montserrat-700';
+    font-size: 32px;
+    color:  #ff9212;
+}
+
+.delivery>.text{
+    font-family: 'Montserrat-300';
+    font-size: 16px;
+    color:  #fff;
+    letter-spacing: 0.1em;
+    line-height: 34px;
+}
