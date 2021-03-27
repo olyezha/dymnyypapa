@@ -429,11 +429,11 @@ input#two:checked ~ .check {
 }
 
 input#three ~ .check { 
-	transform: translate(-70px, 0px); 
+	transform: translate(-43px, 0px); 
     background-color: rgba(255, 166, 0, 0.3);
 }
 input#four ~ .check { 
-    transform: translate(-220px, 0px); 
+    transform: translate(-173px, 0px); 
     background-color: orange;
 }
 
@@ -442,7 +442,7 @@ input#three:checked ~ .check {
 }
 
 input#four:checked ~ .check { 
-    transform: translate(-63px, 0); 
+    transform: translate(-43px, 0); 
 }
 
 .checks{
