@@ -236,7 +236,7 @@ $(document).ready(function () {
         f1.name.value = 'Кальян';
         f1.taste.value = 'Димний';
         f1.weight.value = '1.5 kg';
-        f1.price.value = 140 + '$';
+        f1.price.value = 140 + '₴';
     }
 
     let tbody = document.querySelector('#tbody')
