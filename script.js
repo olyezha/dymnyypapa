@@ -211,6 +211,14 @@ $(document).ready(function () {
             $('.shadow').slideUp();
         }
     })
+    
+    $('.close-mod').click(function(){
+        if(!flag){
+            $('.modal-window').slideDown();
+        }else{
+            $('.modal-window').slideUp();
+        }
+    })
 
     let hookahImg = document.querySelector('.hookahImg');
     let tabbacoImg = document.querySelector('.tabbacoImg');
